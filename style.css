@@ -1,0 +1,22 @@
+
+
+.main-header {
+	margin: 0;
+	padding: 0;
+}
+.list {
+    margin: 0
+}
+.add-button {
+    margin: 0;
+    color: rgb(44, 184, 44);
+
+}
+.delete-button {
+    margin: 0;
+    color: rgb(235, 70, 70);
+}
+button {
+    text-align: center;
+    padding: 16px;
+}
