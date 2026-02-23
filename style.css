@@ -105,7 +105,7 @@ body {
 #task-list li .checkbox {
     min-width: 20px;
     height: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(96, 28, 28, 0.819);
     background: transparent;
     border-radius: 50%;
     cursor: pointer;
@@ -120,7 +120,7 @@ body {
 
 #task-list li .checkbox:checked::before {
     content: '\2713';
-    color: white;
+    color: rgb(59, 2, 2);
     display:flex;
     justify-content: center;
     align-items:center;
@@ -135,7 +135,6 @@ body {
 
 #task-list li.completed span {
     text-decoration: 2px line-through #000;
-    color: #000;
 }
 
 .task-buttons {
