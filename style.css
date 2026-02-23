@@ -76,6 +76,7 @@ body {
     background: #e8c2cb;
 }
 .todo-list {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,4 +131,38 @@ body {
     flex: 1;
     margin-left: 10px;
     word-wrap: break-word;
+}
+
+#task-list li.completed span {
+    text-decoration: 2px line-through #000;
+    color: #000;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+    margin-right: auto;
+}
+.task-buttons button {
+    background: rgba(255,194,209,0.3);
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task-buttons button:hover {
+    transform: scale(1.2);
+}
+.task-buttons .edit-btn {
+    background: chocolate;
+}
+.task-buttons .delete-btn {
+    background: rgb(126, 38, 5);
 }
