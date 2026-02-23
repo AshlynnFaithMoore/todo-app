@@ -6,21 +6,27 @@
     <title>My todo list</title>
     <!-- Link to an external stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4be86060f.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Rubik+Bubbles&display=swap" rel="stylesheet">
   </head>
+
+  <!-- Body Starts Here-->
   <body>
-    <header class="main-header">
-        <h1>To do List</h1> 
-    </header>
-    <div class="list">
-        <ol style="list-style-type:circle;">
-            <li>Test</li>
-        </ol>
+    <div class="container">
+        <div class="todo-hdr">
+            <h1> To-Do List</h1>
+            <form class="input-area">
+                <input type="text" placeholder="Add a New Task..." id="TaskList">
+                <button type="submit" id="AddTaskBtn"><i class="fa-solid fa-plus"></i></button>
+            </form>
+            <div class="todo-list">
+                <ul id="task-list"></ul>
+                <img class="empty-image" src="/Users/ashlynnmoore/Downloads/bored.png" alt="empty">
+        </div>
     </div>
-    <div class="add-button">
-        <button type="button">Add Task</button>
-    </div>
-    <div class="delete-button">
-        <button type="button">Delete Task</button>
     </div>
   </body>
 </html>
